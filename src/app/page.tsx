@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <Image className="shadow-md rounded-md" src="https://img.freepik.com/vetores-gratis/visita-desenhada-a-mao-ao-conceito-de-psicologo_52683-69070.jpg?semt=ais_hybrid&w=740&q=80" width={250} height={250} alt="Imagem ilustrativa"></Image>
       </section>
-      <section className="w-screen h-screen flex flex-col justify-center items-center gap-4">
+      <section id="contact" className="w-screen h-screen flex flex-col justify-center items-center gap-4">
         <h2 className="text-2xl font-bold">Contato</h2>
         <input className="w-70 p-2 rounded-4xl border-1 border-black" type="email" placeholder="Digite seu email" />
         <div className="flex gap-4">
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <button className="w-50 p-4 bg-[#334139] rounded-4xl text-white font-bold shadow-md shadow-black">Enviar</button>
       </section>
-      <section id="contact" className="w-screen h-screen flex flex-col justify-center items-center gap-4 border-b-1 border-black">
+      <section className="w-screen h-screen flex flex-col justify-center items-center gap-4 border-b-1 border-black">
         <h2 className="text-2xl font-bold">Duvidas frequentes</h2>
         <div className="w-70 min-[1000px]:w-200 flex flex-col gap-4">
           <div onClick={() => setIsOpen1(!isOpen1)} className="bg-[#334139] text-white rounded-4xl p-3 shadow-md flex flex-col cursor-pointer gap-3">
